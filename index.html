@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SAVORÉ — a modern restaurant experience with handcrafted dishes and easy table reservations.">
+  <title>SAVORÉ | Modern Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">Open daily · 11:00 AM — 11:00 PM <span>•</span> Reservations recommended</div>
+  <header class="header" id="home">
+    <nav class="nav container">
+      <a class="logo" href="#home">SAVOR<span>É</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a><a href="#menu">Menu</a><a href="#story">Our Story</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+        <a class="nav-cta" href="#booking">Book a Table</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <p class="eyebrow">WELCOME TO SAVORÉ</p>
+        <h1>Good food.<br><em>Great moments.</em></h1>
+        <p class="hero-text">Seasonal ingredients, bold flavors, and a warm table made for memorable evenings.</p>
+        <div class="hero-actions"><a href="#menu" class="btn btn-primary">Explore Menu</a><a href="#booking" class="btn btn-light">Reserve a Table</a></div>
+      </div>
+      <div class="scroll">SCROLL TO DISCOVER <span>↓</span></div>
+    </section>
+
+    <section class="intro section">
+      <div class="container two-col">
+        <div><p class="eyebrow">THE SAVORÉ EXPERIENCE</p><h2>Where every plate<br>tells a <em>story.</em></h2></div>
+        <div class="intro-copy"><p>We bring contemporary cuisine and timeless hospitality together under one roof. Our kitchen celebrates fresh local produce, honest techniques, and flavors designed to make you slow down and stay a little longer.</p><a href="#story" class="text-link">Discover our story →</a></div>
+      </div>
+      <div class="stats container"><div><strong>12+</strong><span>Years of passion</span></div><div><strong>40+</strong><span>Signature dishes</span></div><div><strong>4.9</strong><span>Guest rating</span></div><div><strong>100%</strong><span>Fresh ingredients</span></div></div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">FROM OUR KITCHEN</p><h2>A menu made to <em>remember.</em></h2></div><p>Thoughtfully crafted plates, from comforting classics to modern favorites.</p></div>
+        <div class="filters">
+          <button class="filter active" data-category="all">All</button><button class="filter" data-category="starters">Starters</button><button class="filter" data-category="mains">Mains</button><button class="filter" data-category="desserts">Desserts</button><button class="filter" data-category="drinks">Drinks</button>
+        </div>
+        <div class="menu-grid">
+          <article class="dish" data-category="starters"><div class="dish-img img1"></div><div class="dish-info"><div><h3>Burrata & Heirloom Tomato</h3><p>Whipped burrata, basil oil, aged balsamic</p></div><b>$14</b></div></article>
+          <article class="dish" data-category="starters"><div class="dish-img img2"></div><div class="dish-info"><div><h3>Truffle Mushroom Toast</h3><p>Wild mushrooms, sourdough, parmesan cream</p></div><b>$13</b></div></article>
+          <article class="dish" data-category="mains"><div class="dish-img img3"></div><div class="dish-info"><div><h3>Herb-Crusted Salmon</h3><p>Roasted vegetables, lemon beurre blanc</p></div><b>$28</b></div></article>
+          <article class="dish" data-category="mains"><div class="dish-img img4"></div><div class="dish-info"><div><h3>Truffle Pasta</h3><p>Fresh tagliatelle, black truffle, pecorino</p></div><b>$24</b></div></article>
+          <article class="dish" data-category="mains"><div class="dish-img img5"></div><div class="dish-info"><div><h3>Signature Steak</h3><p>Grilled tenderloin, pepper jus, herb butter</p></div><b>$34</b></div></article>
+          <article class="dish" data-category="desserts"><div class="dish-img img6"></div><div class="dish-info"><div><h3>Chocolate Fondant</h3><p>Dark chocolate, vanilla gelato, sea salt</p></div><b>$12</b></div></article>
+          <article class="dish" data-category="desserts"><div class="dish-img img7"></div><div class="dish-info"><div><h3>Berry Pavlova</h3><p>Crisp meringue, seasonal berries, cream</p></div><b>$11</b></div></article>
+          <article class="dish" data-category="drinks"><div class="dish-img img8"></div><div class="dish-info"><div><h3>Citrus Garden</h3><p>Orange, grapefruit, mint, sparkling water</p></div><b>$8</b></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="container story-grid"><div class="story-image"></div><div class="story-copy"><p class="eyebrow">OUR STORY</p><h2>Rooted in tradition.<br>Made for <em>today.</em></h2><p>SAVORÉ began with a simple idea: create a place where exceptional food feels effortless. From our first small kitchen to today, we have kept the same belief — great dining is about more than what is on the plate.</p><p>Our chefs work with trusted farmers and producers to build a menu that changes with the seasons, while our team makes every guest feel right at home.</p><a href="#booking" class="btn btn-dark">Come Dine With Us</a></div></div>
+    </section>
+
+    <section class="services section">
+      <div class="container"><div class="section-heading centered"><div><p class="eyebrow">MORE THAN A MEAL</p><h2>Made for every <em>occasion.</em></h2></div></div>
+      <div class="service-grid"><div class="service"><span>01</span><h3>Private Dining</h3><p>Intimate spaces and tailored menus for celebrations and gatherings.</p></div><div class="service"><span>02</span><h3>Corporate Events</h3><p>Professional hospitality, curated menus, and seamless service.</p></div><div class="service"><span>03</span><h3>Chef's Table</h3><p>An exclusive multi-course experience served directly by our chefs.</p></div></div></div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="container"><div class="section-heading"><div><p class="eyebrow">A FEAST FOR THE EYES</p><h2>Inside <em>SAVORÉ.</em></h2></div></div>
+      <div class="gallery-grid"><div class="gallery-item g1"></div><div class="gallery-item g2"></div><div class="gallery-item g3"></div><div class="gallery-item g4"></div><div class="gallery-item g5"></div></div></div>
+    </section>
+
+    <section class="booking section" id="booking">
+      <div class="container booking-wrap"><div class="booking-copy"><p class="eyebrow">YOUR TABLE AWAITS</p><h2>Make a <em>reservation.</em></h2><p>Choose your preferred date and time. We’ll keep your table ready.</p><div class="booking-contact"><span>☎</span><div><small>Call us</small><strong>+92 300 1234567</strong></div></div></div>
+      <form id="bookingForm" class="booking-form"><div class="form-row"><label>Name<input required id="name" type="text" placeholder="Your name"></label><label>Guests<select id="guests"><option>2 Guests</option><option>3 Guests</option><option>4 Guests</option><option>5 Guests</option><option>6+ Guests</option></select></label></div><div class="form-row"><label>Date<input required id="date" type="date"></label><label>Time<select id="time"><option>6:00 PM</option><option>7:00 PM</option><option>8:00 PM</option><option>9:00 PM</option></select></label></div><label>Special request<textarea id="request" rows="3" placeholder="Birthday, anniversary, dietary request..."></textarea></label><button class="btn btn-dark full" type="submit">Confirm Reservation</button><p class="form-note" id="formNote"></p></form></div>
+    </section>
+  </main>
+
+  <footer id="contact"><div class="container footer-grid"><div><a class="logo light-logo" href="#home">SAVOR<span>É</span></a><p>Contemporary dining.<br>Timeless hospitality.</p></div><div><h4>Visit</h4><p>123 Culinary Avenue<br>Islamabad, Pakistan</p></div><div><h4>Hours</h4><p>Mon–Thu · 11AM–10PM<br>Fri–Sun · 11AM–11PM</p></div><div><h4>Contact</h4><p>+92 300 1234567<br>hello@savore.pk</p></div></div><div class="footer-bottom container"><span>© 2026 SAVORÉ Restaurant</span><span>Task 18 · SpireX Foundation</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
